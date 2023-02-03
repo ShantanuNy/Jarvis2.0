@@ -14,7 +14,7 @@ body {
 #app {
 	width: 100vw;
 	height: 100vh;
-	background: #282828;
+	background: #363636;
 	text-align: center;;
 
 	display: flex;
@@ -28,7 +28,6 @@ body {
 	width: 100%;
 	height: 100%;
 	overflow-y: scroll;
-
 	display: flex;
 	flex-direction: column;
 	gap: 10px;
@@ -51,7 +50,7 @@ body {
 }
 
 .ai {
-	background: #131313;
+	background: #282828;
 }
 
 .chat {
@@ -119,6 +118,7 @@ form {
 	margin: 0 auto;
 	padding: 10px;
 	background: #161616;
+	padding-bottom: 10px;
 
 	display: flex;
 	flex-direction: row;
